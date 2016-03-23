@@ -1,1 +1,2 @@
-hexo.extend.tag.register('russophile', require('./russophile'));
+var russophile = require('./russophile');
+hexo.extend.tag.register('russophile', russophile, true);
