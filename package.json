@@ -1,39 +1,37 @@
 {
-    "author" : {
-        "email" : "duncan.alan@mac.com",
-        "name"  : "Alan Duncan",
-        "url"   : "http://www.ojisanseiuchi.com"
-    },
-    "bugs"  : {
-        "url"   : "https://github.com/NSBum/hexo-tag-russophilia/issues"
-    },
-    "dependencies"  : {},
-    "description"   : "hexo-tag-plugins",
-    "devDependencies"   : {},
-    "directories"       : {},
-    "dist"              : {
-        "shasum"    : "",
-        "tarball"   : ""
-    },
-    "gitHead"   :   "",
-    "homepage"  :   "",
-    "installable":  true,
-    "maintainers": [
-        {
-            "name": "alan",
-            "email": "duncan.alan@mac.com"
-        }
-    ],
-    "name": "hexo-tag-russophilia",
-    "optionalDependencies": {},
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/NSBum/hexo-tag-russophilia.git"
-    },
-    "scripts": {},
-    "tags": [
-        "hexo",
-        "tag_plugins"
-    ],
-    "version": "0.0.1"
+  "author": "Alan Duncan <duncan.alan@mac.com> (http://www.ojisanseiuchi.com)",
+  "bugs": {
+    "url": "https://github.com/NSBum/hexo-tag-russophilia/issues"
+  },
+  "dependencies": {},
+  "description": "hexo-tag-plugins",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "",
+    "tarball": ""
+  },
+  "homepage": "https://github.com/NSBum/hexo-tag-russophilia",
+  "installable": true,
+  "maintainers": [
+    "alan <duncan.alan@mac.com>"
+  ],
+  "name": "hexo-tag-russophilia",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NSBum/hexo-tag-russophilia.git"
+  },
+  "scripts": {},
+  "tags": [
+    "hexo",
+    "tag_plugins"
+  ],
+  "version": "0.0.1",
+  "main": "index.js",
+  "keywords": [
+    "hexo",
+    "tag_plugins"
+  ],
+  "license": "MIT"
 }
