@@ -1,0 +1,39 @@
+{
+    "author" : {
+        "email" : "duncan.alan@mac.com",
+        "name"  : "Alan Duncan",
+        "url"   : "http://www.ojisanseiuchi.com"
+    },
+    "bugs"  : {
+        "url"   : ""
+    },
+    "dependencies"  : {},
+    "description"   : "hexo-tag-plugins",
+    "devDependencies"   : {},
+    "directories"       : {},
+    "dist"              : {
+        "shasum"    : "",
+        "tarball"   : ""
+    },
+    "gitHead"   :   "",
+    "homepage"  :   "",
+    "installable":  true,
+    "maintainers": [
+        {
+            "name": "alan",
+            "email": "duncan.alan@mac.com"
+        }
+    ],
+    "name": "hexo-tag-russophilia",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "scripts": {},
+    "tags": [
+        "hexo",
+        "tag_plugins"
+    ],
+    "version": "0.0.1"
+}
