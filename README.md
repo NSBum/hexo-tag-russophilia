@@ -20,4 +20,4 @@ $ npm install hexo-tag-russophilia --save
 * `sp`  - serif plain
 * `sb`  - serif bold
 * `rsb` - red serif bold
-* 'rsp' - red serif plain
+* `rsp` - red serif plain
