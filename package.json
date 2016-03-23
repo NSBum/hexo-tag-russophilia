@@ -5,7 +5,7 @@
         "url"   : "http://www.ojisanseiuchi.com"
     },
     "bugs"  : {
-        "url"   : ""
+        "url"   : "https://github.com/NSBum/hexo-tag-russophilia/issues"
     },
     "dependencies"  : {},
     "description"   : "hexo-tag-plugins",
@@ -28,7 +28,7 @@
     "optionalDependencies": {},
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "https://github.com/NSBum/hexo-tag-russophilia.git"
     },
     "scripts": {},
     "tags": [
