@@ -22,7 +22,7 @@ var hexo = new Hexo(process.cwd(), {});
         style = args[0];
     else
         style = 'sp';
-    var css_style = 'font-family: \'Times New Roman\'; ';
+    var css_style = 'font-family:serif; ';
     var text_color;
     if( style.match(/r/))
         text_color = "#b30000";
