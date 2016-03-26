@@ -22,6 +22,7 @@ var hexo = new Hexo(process.cwd(), {});
         style = args[0];
     else
         style = 'sp';
+    /*
     var css_style = 'font-family:Georgia,serif; ';
     var text_color;
     if( style.match(/r/))
@@ -31,9 +32,10 @@ var hexo = new Hexo(process.cwd(), {});
     css_style += 'color:' + text_color + '; ';
     if( style.match(/b/))
         css_style += 'font-weight:bold; ';
-    var text = '<span class="rsb">' + content + '</span';
+        */
+    var span_content = '<span style="' + style + '">' + content + '</span>';
     //var text = '<span style="' + css_style + '">' + content + '</span>';
-    text = hexo.render.renderSync({text: text, engine: 'markdown'});
+    text = hexo.render.render({text: span_content, engine: 'markdown'});
 
     return text;
 }
