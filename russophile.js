@@ -31,9 +31,9 @@ var hexo = new Hexo(process.cwd(), {});
     css_style += 'color:' + text_color + '; ';
     if( style.match(/b/))
         css_style += 'font-weight:bold; ';
-
-    var text = '<span style="' + css_style + '">' + content + '</span>';
-    //text = hexo.render.renderSync({text: text, engine: 'markdown'});
+    var text = '<span class="rsb">' + content + '</span';
+    //var text = '<span style="' + css_style + '">' + content + '</span>';
+    text = hexo.render.renderSync({text: text, engine: 'markdown'});
 
     return text;
 }
