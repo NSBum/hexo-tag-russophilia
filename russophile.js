@@ -33,7 +33,7 @@ var hexo = new Hexo(process.cwd(), {});
         css_style += 'font-weight:bold; ';
 
     var text = '<span style="' + css_style + '">' + content + '</span>';
-    text = hexo.render.renderSync({text: text, engine: 'markdown'});
+    //text = hexo.render.renderSync({text: text, engine: 'markdown'});
 
     return text;
 }
