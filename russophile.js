@@ -30,7 +30,7 @@ var hexo = new Hexo(process.cwd(), {});
         text_color = "#0B0B0B";
     css_style += 'color:' + text_color + '; ';
     if( style.match(/b/))
-        css_style += 'font-weight: bold; ';
+        css_style += 'font-weight:bold; ';
 
     var text = '<span style="' + css_style + '">' + content + '</span>';
     text = hexo.render.renderSync({text: text, engine: 'markdown'});
